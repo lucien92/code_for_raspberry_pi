@@ -5,7 +5,7 @@ from utils_lite import draw_boxes, decode_netout
 import tflite_runtime.interpreter as tflite
 
 
-lite_path = '/home/rpi/code_for_raspberry_pi/tf_lite_path_rpi/classic_tf_lite.tflite'
+lite_path = '/home/pi/code_for_raspberry_pi/tf_lite_path_rpi/classic_tf_lite.tflite'
 anchors_list = [5.49950,8.57597, 9.26930,17.66783, 10.56113,10.43321, 15.44298,23.17856, 34.00303,34.41259]
 labels = ["MESCHA", "SITTOR", "MESBLE", "MESNON", "PINARB", "ACCMOU", "ROUGOR", "VEREUR", "TOUTUR", "ECUROU", "PIEBAV", "MULGRI", "MESNOI", "MESHUP"]
 
