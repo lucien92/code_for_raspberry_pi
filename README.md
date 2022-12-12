@@ -3,7 +3,7 @@ Code using a model converted in tensorflow_lite. It aims to recognize birds on i
 
 #How to use it
 
-1) L'étape du code: à faire sur son ordi de travail habituel
+1) L'étape du code:
 
 -cloner le github suivant: https://github.com/lucien92/code_for_raspberry_pi
 
@@ -17,16 +17,18 @@ On trouve aussi le fichier predict_tflite.py. Dans ce fichier il suffit de rentr
 
 2) La mise en place de la raspberry pi
 
-installation: connecter la rpi à un point de recharge afin de l'allumer et brancher la à un écran grâce à un cable hdmi afin de pouvoir bénéficier de l'interface graphique proposée par la rpi.
+Installation: connectez la rpi à un point de recharge afin de l'allumer puis branchez la à un écran grâce à un cable hdmi afin de pouvoir bénéficier de l'interface graphique proposée par la rpi.
 
--télécharger python sur la rpi
+-télécharger python sur la rpi 
 
 -upgrader tous les pip etc
 
--installation via le termina de 4 modules: opencv, numpy, pandas et tflite_runtime. 
+-installation via le terminale de 4 modules: opencv, numpy, pandas et tflite_runtime. 
 
 -lancer un git clone de votre repository précédemment créé (comme conseillé plus haut)
 
 -pour lancer des predict: lancer la commande python3 "nom du fichier qui fait la predict"
 
-Voilà!
+Vous pouvez maintenant lancer une prédiction de photo avec votre rpi!
+
+PS: vous la detection real-time et l'écriture dans le csv, rajoutez un nouveau script...
